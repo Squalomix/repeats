@@ -22,7 +22,7 @@ GAGGTTGGAGACGGGCCGGGCCCAACGCCCCACATGGAGGCTGGACACGG
 CCCTCCTGGCCGACAAGGCCTTCTGCGAGAAAATATCGCGGGCCATAGGC
 ```
 
-To examine if you got right output, open the log file from your RepeatModeler run, and make sure that you can find the line like below on the top.
+To examine if you got right output, open the log file from your RepeatModeler run, and make sure that you can find the lines like below, at the beginning of the log file.
 ```
 LTR Structural Analysis: Enabled ( GenomeTools 1.6.2, LTR_Retriever v2.9.0,
                                    Ninja 0.95-cluster_only, MAFFT 7.475,
