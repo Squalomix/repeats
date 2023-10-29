@@ -76,4 +76,17 @@ LTRPipeline Time: 22:58:50 (hh:mm:ss) Elapsed Time
 
 ## Use more options for RepeatMasker
 
-Consider setting the options `-s` (sensitive mode) and `-nolow` (no masking of low complexity repeats, e.g., in softmasking-aware gene prediction). There are more options such as `-noint` or `-norna`
+When RepeatMasker is run, consider setting the options `-s` (sensitive mode) and `-nolow` (no masking of low complexity repeats, e.g., in softmasking-aware gene prediction). There are more options such as `-noint` or `-norna` that may allow more desible repeat masking suitable to your expectation for downstream data processing.
+
+## Masking simple tandem repeats
+
+There is huge room for tweaking RepeatModeler and RepeatMasker for interspersed repeat detection and masking, but its adaptability to simple tandem repeat detection is limited. One possible clue is to modify parameters (such as `-l`) for Tandem Repeats Finder (TRF) in the file TRF.pm in the RepeatMasker-X.X.X directory.
+
+Another line of improvement can be expected by using a different program from RepeatMasker. One option is [tantan](https://gitlab.com/mcfrith/tantan) developed by Dr. Martin Frith. The output softmasked sequence file can be directly input and is processed by tantan to further mask simple tandem repeats that were not detected by RepeatMasker as below.
+```
+tantan -c input.fna > output.fna
+```
+
+## Closing words
+
+The tips covered in this page arose from technical development, biological analysis, and discussion by John Rozewicki, Jeremy Berthelier, and Shigehiro Kuraku. 
