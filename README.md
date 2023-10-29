@@ -7,11 +7,11 @@ Exaustive identification of de novo (species/taxon-specific) repetitive elements
 When RepeatModeler is run, the option '-LTRStruct' is expected to reliably  identified. However, under some particular conditions of RepeatModeder installation, this function is disabled. If the repeat library file 'genome-families.fa' produced by RepeatModeler includes the repeat models whose header line starts with 'ltr-' in addition to those starting with 'rnd-', your RepeatModeler runs properly with the '-LTRStruct' option. If there is no repeat model with 'ltr-', this means that your RepeatModeler did not run properly with this option. 
 
 To analyze this, open the log file from your RepeatModeler run, and make sure that you can find the line like below on the top.
-
-`LTR Structural Analysis: Enabled ( GenomeTools 1.6.2, LTR_Retriever v2.9.0,<br>
-                                   Ninja 0.95-cluster_only, MAFFT 7.475,<br>
+```
+LTR Structural Analysis: Enabled ( GenomeTools 1.6.2, LTR_Retriever v2.9.0,
+                                   Ninja 0.95-cluster_only, MAFFT 7.475,
                                    CD-HIT 4.8.1 )`
-
+```
 and look for the lines far below in the section 'LTR Structural Analysis'
 
 `LTR Structural Analysis<BR>
