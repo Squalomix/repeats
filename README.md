@@ -30,9 +30,9 @@ LTR Structural Analysis: Enabled ( GenomeTools 1.6.2, LTR_Retriever v2.9.0,
 ```
 and look for the lines far below in the section 'LTR Structural Analysis'
 ```
-LTR Structural Analysis<
+LTR Structural Analysis
 =======================
-Running LtrHarvest...sh: line 1: 660113 Segmentation fault      (core dumped) /home/kuraku/programs/genometools-1.6.2/bin/gt ltrharvest -index esa_index -out ltrharvest.out > ltrharvest.log 2>&1<BR>
+Running LtrHarvest...sh: line 1: 660113 Segmentation fault      (core dumped) /home/kuraku/programs/genometools-1.6.2/bin/gt ltrharvest -index esa_index -out ltrharvest.out > ltrharvest.log 2>&1
 LtrPipeline: GenomeTools failed to run ltrharvest. Error code: 139
 LTRPipeline: No results returned from LTR structural finder ( LtrHarvest ).
 LTRPipeline Time: 223:12:40 (hh:mm:ss) Elapsed Time
