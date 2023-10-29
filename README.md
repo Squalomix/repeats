@@ -8,8 +8,8 @@ When RepeatModeler is run, the option '-LTRStruct' is expected to reliably  iden
 
 To analyze this, open the log file from your RepeatModeler run, and make sure that you can find the line like below on the top.
 
-`LTR Structural Analysis: Enabled ( GenomeTools 1.6.2, LTR_Retriever v2.9.0,<BR>
-                                   Ninja 0.95-cluster_only, MAFFT 7.475,<BR>
+`LTR Structural Analysis: Enabled ( GenomeTools 1.6.2, LTR_Retriever v2.9.0,<br>
+                                   Ninja 0.95-cluster_only, MAFFT 7.475,<br>
                                    CD-HIT 4.8.1 )`
 
 and look for the lines far below in the section 'LTR Structural Analysis'
