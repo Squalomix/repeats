@@ -38,7 +38,7 @@ LTRPipeline: No results returned from LTR structural finder ( LtrHarvest ).
 LTRPipeline Time: 223:12:40 (hh:mm:ss) Elapsed Time
 ```
 
-This is an example from a RepeatModeler run in which the LTR identification did not run because of the high abundance of very long sequences. Included below is another example in which inappropriate versions of Genome Tools (v.0.6.5. versus v1.6.2 referred above) and Ninja was used. See [here](https://github.com/Dfam-consortium/RepeatModeler/issues/134) for tips from the developer.
+This is an example from a RepeatModeler run in which LTR identification did not run because of the high abundance of very long sequences. Included below is another example in which inappropriate versions of Genome Tools (v.0.6.5. versus v1.6.2 referred above) and Ninja was used. See [here](https://github.com/Dfam-consortium/RepeatModeler/issues/134) for tips from the developer.
 ```
 LTR Structural Analysis: Enabled ( GenomeTools 0.6.5, LTR_Retriever v2.9.0,
                                    Ninja , MAFFT 7.475,
