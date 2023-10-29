@@ -49,9 +49,9 @@ Here is another error produced when RepeatModelder ran with an appropriate versi
 LTR Structural Analysis
  =======================
 
- Running LtrHarvest...     : 26:29:35 (hh:mm:ss) Elapsed Time<BR>
- Running Ltr_retriever...  : 02:41:26 (hh:mm:ss) Elapsed Time<BR>
- Aligning instances...     : 09:41:58 (hh:mm:ss) Elapsed Time<BR>
+ Running LtrHarvest...     : 26:29:35 (hh:mm:ss) Elapsed Time
+ Running Ltr_retriever...  : 02:41:26 (hh:mm:ss) Elapsed Time
+ Aligning instances...     : 09:41:58 (hh:mm:ss) Elapsed Time
  Clustering...LTRPipeline: Error - could not cluster MAFFT results.
 ```
 Pasted below is a message in a successful run of LtrHarvest inside RepeatModeler. 
