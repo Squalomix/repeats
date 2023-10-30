@@ -80,7 +80,7 @@ When RepeatMasker is run, consider setting the options `-s` (sensitive mode) and
 
 ## Masking simple tandem repeats
 
-There is huge room for tweaking RepeatModeler and RepeatMasker for interspersed repeat detection and masking, but its adaptability to simple tandem repeat detection is limited. One possible clue is to modify parameters (such as `-l`) for [Tandem Repeats Finder (TRF)](https://github.com/Benson-Genomics-Lab/TRF) in the file TRF.pm in the RepeatMasker-X.X.X directory.
+There is huge room for tweaking RepeatModeler and RepeatMasker for interspersed repeat detection and masking, but its adaptability to simple tandem repeat detection is not explicit. One possible clue is to modify parameters (such as `-l`) for [Tandem Repeats Finder (TRF)](https://github.com/Benson-Genomics-Lab/TRF) in the file TRF.pm in the RepeatMasker-X.X.X directory.
 
 Another line of improvement can be expected by using a different program from RepeatMasker. One option is [tantan](https://gitlab.com/mcfrith/tantan) developed by Dr. Martin Frith. The output softmasked sequence file can be directly input and is processed by tantan to further mask simple tandem repeats that were not detected by RepeatMasker as below.
 ```
