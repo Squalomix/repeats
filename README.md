@@ -2,7 +2,7 @@
 
 Exaustive identification of de novo (species/taxon-specific) repetitive elements is crucial in achieving thorough detection of repetitive regions in the genome of question. It has become a standard strategy in the genomicists' community, to perform a repeat library construction with [RepeatModeler](https://www.repeatmasker.org/RepeatModeler/) and later execute [RepeatMakser](https://www.repeatmasker.org/) using the repeat library constructed by RepeatModeler. Overall performance of repeat detection largely varies depending on the way how these programs are used, as repeatedly cautioned (e.g., [Platt et al., 2016](https://academic.oup.com/gbe/article/8/2/403/2574076)). This document covers some practical topics that users could consider for achieving the maximal outcome.
 
-## Make sure your RepeatModeler run properly with the '-LTRStruct' option
+## Make sure your RepeatModeler runs properly with the '-LTRStruct' option
 
 When RepeatModeler is run, the option `-LTRStruct` is expected to reliably  identified. However, under some particular conditions of RepeatModeder installation, this function is disabled. If the repeat library file 'genome-families.fa' produced by RepeatModeler includes the repeat models whose header line starts with 'ltr-' in addition to those starting with 'rnd-' (like inserted below), your RepeatModeler runs properly with the `-LTRStruct` option. If there is no repeat model with 'ltr-', this means that your RepeatModeler did not run properly with this option. The problem is that RepeatModeler itself just skips the step and continues to run to to the end, producing no explicit error.
 ```
