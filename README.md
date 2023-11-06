@@ -76,7 +76,7 @@ LTRPipeline Time: 22:58:50 (hh:mm:ss) Elapsed Time
 
 ## Use more options for RepeatMasker
 
-When RepeatMasker is run, consider setting the options `-s` (sensitive mode) and `-nolow` (no masking of low complexity repeats, e.g., for softmasking-aware gene prediction). There are more options such as `-noint` or `-norna` that may allow more desible repeat masking suitable to your expectation for downstream data processing.
+When RepeatMasker is run, consider setting the options `-s` (sensitive mode) and `-nolow` (no masking of low complexity repeats, e.g., for softmasking-aware gene prediction). There are more options such as `-noint` or `-norna` that may allow more desiable repeat masking suitable to your expectation for downstream data processing.
 
 ## Masking simple tandem repeats
 
