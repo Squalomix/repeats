@@ -89,4 +89,4 @@ tantan -c input.fna > output.fna
 
 ## Closing words
 
-The tips covered in this page arose from technical development, biological analysis, and discussion by John Rozewicki, Jeremy Berthelier, and Shigehiro Kuraku. 
+The pieces of information covered in this page arose from technical development, biological analysis, and discussion by John Rozewicki, Jeremy Berthelier, and Shigehiro Kuraku. 
