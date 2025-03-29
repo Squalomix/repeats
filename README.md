@@ -1,14 +1,14 @@
 # Useful links about transposons
 
-[Listing of upcoming conferences](https://tehub.org/en/Conferences) at TEHub 
-[Dfam](https://dfam.org/about) - Dfam paper [Storer et al., 2021](https://mobilednajournal.biomedcentral.com/articles/10.1186/s13100-020-00230-y)
-[RepBase](https://www.girinst.org/)
-[RepeatMasker](https://www.repeatmasker.org/)
-[EDTA](https://github.com/oushujun/EDTA/releases) 
-[EarlGrey](https://github.com/TobyBaril/EarlGrey/releases) 
-[TEtrimmer](https://github.com/qjiangzhao/TEtrimmer/releases)
-[REPET](https://urgi.versailles.inra.fr/Tools/REPET)
-[RepeatExplorer](http://repeatexplorer.org/)
+[Listing of upcoming conferences](https://tehub.org/en/Conferences) at TEHub <BR>
+[Dfam](https://dfam.org/about) - Dfam paper [Storer et al., 2021](https://mobilednajournal.biomedcentral.com/articles/10.1186/s13100-020-00230-y)<BR>
+[RepBase](https://www.girinst.org/)<BR>
+[RepeatMasker](https://www.repeatmasker.org/)<BR>
+[EDTA](https://github.com/oushujun/EDTA/releases) <BR>
+[EarlGrey](https://github.com/TobyBaril/EarlGrey/releases) <BR>
+[TEtrimmer](https://github.com/qjiangzhao/TEtrimmer/releases)<BR>
+[REPET](https://urgi.versailles.inra.fr/Tools/REPET)<BR>
+[RepeatExplorer](http://repeatexplorer.org/)<BR>
 
 # Our experience in repeat detection
 
