@@ -44,7 +44,7 @@ and look for the lines far below in the section 'LTR Structural Analysis'
 ```
 LTR Structural Analysis
 =======================
-Running LtrHarvest...sh: line 1: 660113 Segmentation fault      (core dumped) /home/kuraku/programs/genometools-1.6.2/bin/gt ltrharvest -index esa_index -out ltrharvest.out > ltrharvest.log 2>&1
+Running LtrHarvest...sh: line 1: 660113 Segmentation fault      (core dumped) /path/to/genometools-1.6.2/bin/gt ltrharvest -index esa_index -out ltrharvest.out > ltrharvest.log 2>&1
 LtrPipeline: GenomeTools failed to run ltrharvest. Error code: 139
 LTRPipeline: No results returned from LTR structural finder ( LtrHarvest ).
 LTRPipeline Time: 223:12:40 (hh:mm:ss) Elapsed Time
@@ -75,7 +75,7 @@ Running Ltr_retriever...INFO: LTRPipeline - redundant library too large ( 34631 
   : 07:00:45 (hh:mm:ss) Elapsed Time
 Aligning instances...     : 01:48:37 (hh:mm:ss) Elapsed Time
 Clustering...             : 00:02:11 (hh:mm:ss) Elapsed Time
-Refining families...Refiner::buildConsensus(): /home/kuraku/Squalomix-HiFi/storazame/rmasker2/scf1-10/RM_3399123.WedMar80005552023/LTR_799118.WedMar81256002023/ltr-1_family-56.fa ( ltr-1_family-56 ) didn't have any hsps.
+Refining families...Refiner::buildConsensus(): /path/to/RM_3399123.XXXXXXXX/LTR_799118.WedMar81256002023/ltr-1_family-56.fa ( ltr-1_family-56 ) didn't have any hsps.
       : 02:16:29 (hh:mm:ss) Elapsed Time
 Program Time: 22:58:31 (hh:mm:ss) Elapsed Time
   -- Clustering results with previous rounds...
